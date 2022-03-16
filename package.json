@@ -21,6 +21,8 @@
     "build": "react-scripts build",
     "deploy": "react-scripts build && firebase deploy",
     "test": "react-scripts test",
+    "test:noWatch": "npm run test -- --watchAll=false",
+    "lint": "eslint --fix",
     "eject": "react-scripts eject"
   },
   "browserslist": {
